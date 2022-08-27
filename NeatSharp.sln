@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neat", "Neat\Neat.csproj", "{9A95E58D-5353-421F-9125-C1960EA9313B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeatTests", "NeatTests\NeatTests.csproj", "{47BE8B24-4BE4-47D4-81C2-04FEEC7619E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A95E58D-5353-421F-9125-C1960EA9313B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A95E58D-5353-421F-9125-C1960EA9313B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A95E58D-5353-421F-9125-C1960EA9313B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A95E58D-5353-421F-9125-C1960EA9313B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BE8B24-4BE4-47D4-81C2-04FEEC7619E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BE8B24-4BE4-47D4-81C2-04FEEC7619E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BE8B24-4BE4-47D4-81C2-04FEEC7619E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BE8B24-4BE4-47D4-81C2-04FEEC7619E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

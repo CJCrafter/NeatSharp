@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{9A95E58D-5353-421F-9125-C1960EA9313B}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>ClassLibrary1</RootNamespace>
+        <AssemblyName>Neat</AssemblyName>
+        <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Xml" />
+        <Reference Include="UnityEngine">
+            <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Brain.cs" />
+        <Compile Include="Client.cs" />
+        <Compile Include="Genome\ConnectionGene.cs" />
+        <Compile Include="Genome\Gene.cs" />
+        <Compile Include="Genome\Genome.cs" />
+        <Compile Include="Genome\Mutation.cs" />
+        <Compile Include="Genome\NodeGene.cs" />
+        <Compile Include="Genome\NodeType.cs" />
+        <Compile Include="Neat.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="Property.cs" />
+        <Compile Include="Species.cs" />
+        <Compile Include="Util\ArrayList.cs" />
+        <Compile Include="Util\HashSet.cs" />
+        <Compile Include="Util\Iterator.cs" />
+        <Compile Include="Util\ProbabilityMap.cs" />
+        <Compile Include="Util\SortedSet.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
