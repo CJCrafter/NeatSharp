@@ -1,4 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files\Unity\Hub\Editor\2021.3.1f1\Editor\Data\Managed\UnityEngine.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Users\colli\RiderProjects\NeatSharp\Neat\bin\Debug\Neat.dll" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8e1a1fa6_002Ddc08_002D4cfe_002Daf84_002D6114fca0a42a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="NeatTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::47BE8B24-4BE4-47D4-81C2-04FEEC7619E9::net6.0::NeatTests.NeatTest&lt;/TestId&gt;&#xD;

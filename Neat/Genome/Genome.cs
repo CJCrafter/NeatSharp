@@ -79,7 +79,7 @@ namespace Neat {
                 }
             }
 
-            weightDifference /= similar;
+            if (similar != 0) weightDifference /= similar;
             excess = g1.connections.size - finalIndex;
             float n = Mathf.Max(g1.connections.size, g2.connections.size);
             if (n < 20)
